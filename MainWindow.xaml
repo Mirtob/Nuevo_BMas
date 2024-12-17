@@ -1,0 +1,24 @@
+﻿<Window x:Class="NuevoBMas.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NuevoBMas"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="220" Margin="220,98,0,0" VerticalAlignment="Top" Width="300" Source="/Logo_BMas.png"/>
+        <Button x:Name="btnIngresar" Content="Inicio" HorizontalAlignment="Left" Margin="270,267,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="85" Width="214" FontFamily="Bernard MT Condensed" FontSize="20" Background="OrangeRed" BorderBrush="DarkSlateGray" BorderThickness="3px" Click="btnIngresar_Click" FontStyle="Italic" Foreground="{DynamicResource {x:Static SystemColors.HighlightTextBrushKey}}" Grid.IsSharedSizeScope="True" OpacityMask="Black">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.749"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Label x:Name="lblBienvenida" Content="Bienvenidos" HorizontalAlignment="Left" Margin="315,64,0,0" Height="56" Width="228" Cursor="AppStarting" FontFamily="Franklin Gothic Heavy" FontSize="20" FontWeight="ExtraBold" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
