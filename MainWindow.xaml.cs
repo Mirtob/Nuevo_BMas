@@ -9,7 +9,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace NuevoBMas
+namespace NuevoBmas_Datos
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -19,15 +19,6 @@ namespace NuevoBMas
         public MainWindow()
         {
             InitializeComponent();
-        }
-
-        private void btnIngresar_Click(object sender, RoutedEventArgs e)
-        {
-            this.Close();
-            Login login = new Login();
-            login.Show();
-            
-
         }
     }
 }

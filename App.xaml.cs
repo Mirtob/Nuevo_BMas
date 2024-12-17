@@ -2,7 +2,7 @@
 using System.Data;
 using System.Windows;
 
-namespace NuevoBMas
+namespace NuevoBmas_Datos
 {
     /// <summary>
     /// Interaction logic for App.xaml
